@@ -1,0 +1,143 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+
+}
+
+html, body {
+height: 100%;
+width: 100%;
+color: white;
+}
+body{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+header{
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+}
+header h2{
+    font-size: 28px;
+    padding-bottom: 10px;
+
+}
+header span{
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(253, 144, 11);
+}
+
+.container{
+    width: 80%;
+    height: auto;
+    max-width: 370px;
+    background-color:rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px ;
+    padding: 30px 20px;
+
+
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(215, 210, 210);
+    border-radius: 40px; */
+
+
+}
+.header input{
+   padding: 10px;
+   padding-left: 20px;
+   margin-left: 10px;
+   margin-right: 5px;
+   width: 100%;
+   border: none;
+   outline: none;
+   font-size: 17px;
+   border-radius: 40px;
+   background-color:rgb(215, 210, 210) ;
+   color: rgb(35, 35, 35);
+}
+.header img{
+    width:20px;
+    height: 20px;
+}
+.img{
+    
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: rgb(215, 210, 210);
+}
+.error{
+    margin-top: 10px;
+    margin-left: 15px;
+    color: rgba(255, 255, 0, 0.557);
+    display: none;
+}
+#city{
+    color: white;
+}
+.weather-condition{
+    margin-top: 40px;
+    text-align: center;
+    display: none;
+    
+}
+.weather-condition h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+.weather-condition h2{
+    font-size: px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.817);
+}
+.weather-condition img{
+    width: 120px;
+    height: 120px;
+}
+.footer-sec{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.humidity img{
+    width:30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.humidity{
+    display: flex;
+    align-items: center;
+    
+}
+.wind-speed{
+    display: flex;
+    align-items: center;
+}
+.wind-speed img{
+    width: 30px;px;
+    height: 30px;
+    margin-right: 5px;
+}
+#humidity,#wind-speed{
+  font-weight: bold;
+  font-size: 17px;
+}
